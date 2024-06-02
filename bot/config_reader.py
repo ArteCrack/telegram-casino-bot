@@ -11,7 +11,7 @@ class FSMMode(str, Enum):
 
 
 class Settings(BaseSettings):
-    bot_token: SecretStr
+    bot_token: 7471120789:AAFCNLeudomH6STDu5NPoVvtbLa_UYnmGDw
     fsm_mode: FSMMode
     redis: Optional[RedisDsn] = None
     bot_language: str
